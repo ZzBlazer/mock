@@ -2,9 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>GitHub Pages</title>
+  <title>Bootstrap Table Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 </head>
 <body>
-  <h1>Hello World!</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PLACEHOLDER</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsed-content">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsed-content">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><span class="align-middle">Home</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="align-middle">Contact</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><span class="align-middle">About Us</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><button type="button" class="btn btn-light btn-sm">Log in</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button type="button" class="btn btn-light btn-sm">Sign up</button></a>
+            </li>
+          </ul>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      </nav>
+  <div class="container">
+    <h1>ID List</h1>
+    <table class="table thead-inverse table-hover">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Number</th>
+          <th>Age</th>
+          <th>Favorite Food</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Leo</td>
+          <td>1</td>
+          <td>52</td>
+          <td>Popcorn</td>
+        </tr>
+        <tr>
+          <td>Brad</td>
+          <td>2</td>
+          <td>33</td>
+          <td>Fish</td>
+        </tr>
+        <tr>
+          <td>Takezo</td>
+          <td>3</td>
+          <td>27</td>
+          <td>Chicken</td>
+        </tr>
+        <tr>
+          <td>Elon</td>
+          <td>4</td>
+          <td>54</td>
+          <td>Muffins</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </body>
 </html>
